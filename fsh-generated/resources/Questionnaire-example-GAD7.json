@@ -1,0 +1,198 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "example-GAD7",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0"
+    ]
+  },
+  "contained": [
+    {
+      "resourceType": "ValueSet",
+      "id": "VSGAD7",
+      "meta": {
+        "profile": [
+          "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset"
+        ]
+      },
+      "compose": {
+        "include": [
+          {
+            "concept": [
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                    "valueDecimal": 0
+                  }
+                ],
+                "code": "Not at all sure",
+                "display": "Not at all sure"
+              },
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                    "valueDecimal": 1
+                  }
+                ],
+                "code": "Several days",
+                "display": "Several days"
+              },
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                    "valueDecimal": 2
+                  }
+                ],
+                "code": "Over half the days",
+                "display": "Over half the days"
+              },
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                    "valueDecimal": 3
+                  }
+                ],
+                "code": "Nearly every day",
+                "display": "Nearly every day"
+              }
+            ],
+            "system": "http://hl7.org/fhir/uv/sdc/CodeSystem/VSGAD7"
+          }
+        ]
+      },
+      "url": "http://hl7.org/fhir/uv/sdc/ValueSet/VSGAD7",
+      "name": "VSGAD7",
+      "status": "draft",
+      "description": "The answer list for questions addressing the frequency in which patient reports experiencing behaviors that are assessed in the PPS10 Questionnaire.",
+      "immutable": true
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/rendering-styleSensitive",
+      "valueBoolean": true
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode": "fhir"
+    }
+  ],
+  "subjectType": [
+    "Patient"
+  ],
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.dhlab.org/"
+        }
+      ],
+      "name": "Yonsei University"
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "001",
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "display": "World"
+        }
+      ]
+    }
+  ],
+  "effectivePeriod": {
+    "start": "2018-08-20T04:00:00.000Z",
+    "end": "2020-08-20T04:00:00.000Z"
+  },
+  "item": [
+    {
+      "item": [
+        {
+          "linkId": "H1/T1/Q1",
+          "text": "Feeling nervous, anxious, or on edge",
+          "type": "choice",
+          "answerValueSet": "#VSGAD7"
+        },
+        {
+          "linkId": "H1/T1/Q2",
+          "text": "Not being able to stop or control worrying",
+          "type": "choice",
+          "answerValueSet": "#VSGAD7"
+        },
+        {
+          "linkId": "H1/T1/Q3",
+          "text": "Worrying too much about different things",
+          "type": "choice",
+          "answerValueSet": "#VSGAD7"
+        },
+        {
+          "linkId": "H1/T1/Q4",
+          "text": "Trouble relaxing",
+          "type": "choice",
+          "answerValueSet": "#VSGAD7"
+        },
+        {
+          "linkId": "H1/T1/Q5",
+          "text": "Being so restless that its hard to sit still",
+          "type": "choice",
+          "answerValueSet": "#VSGAD7"
+        },
+        {
+          "linkId": "H1/T1/Q6",
+          "text": "Becoming easily annoyed or irritable",
+          "type": "choice",
+          "answerValueSet": "#VSGAD7"
+        },
+        {
+          "linkId": "H1/T1/Q7",
+          "text": "Feeling afraid as if something awful might happen",
+          "type": "choice",
+          "answerValueSet": "#VSGAD7"
+        },
+        {
+          "extension": [
+            {
+              "valueExpression": {
+                "description": "Score (0-4: None-minimal; 5-9: Mild; 19-14: Moderate; 15-19: Moderately severe; 20-27: Severe)",
+                "name": "score",
+                "language": "text/fhirpath",
+                "expression": "%resource.answers().value.ordinal().sum()"
+              },
+              "url": "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-calculatedExpression"
+            }
+          ],
+          "code": [
+            {
+              "code": "64394-0",
+              "system": "http://loinc.org",
+              "display": "PhenX - perceived stress protocol 180801"
+            }
+          ],
+          "linkId": "H1/TS",
+          "text": "PhenX - perceived stress protocol 180801",
+          "type": "quantity"
+        }
+      ],
+      "linkId": "H1/T1",
+      "text": "The question in this scale asks you about your feelings and thoughts during the last month. In each case, you will be asked to indicate by circling how often you felt or thought a certain way.",
+      "type": "group"
+    }
+  ],
+  "url": "http://hl7.org/fhir/uv/sdc/Questionnaire/example-GAD7",
+  "version": "3.0.0",
+  "name": "SDCGAD7",
+  "title": "Generalized Anxiety Disorder - 7 item",
+  "status": "draft",
+  "experimental": true,
+  "date": "2023-12-07T23:07:45+00:00",
+  "publisher": "Yonsei University",
+  "description": "This is a Questionnaire example of how the GAD-7 Questionnaire could be rendered as a FHIR Questionnaire Resource according to the Structured Data Capture SDC Base Questionnaire Profile. This example also portrays how FHIRpaths can be used to perform total score calculations using answer values.",
+  "purpose": "This Questionnaire example was generated to ensure a non-proprietary, publicly available questionnaire that is available to test the Structured Data Capture profiles",
+  "approvalDate": "2019-08-20"
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "outputFile": "Composition-Questionnaire-CDRS25.json",
+    "fshName": "Questionnaire-CDRS25",
+    "fshType": "Instance",
+    "fshFile": "comp_cdrs.fsh",
+    "startLine": 5,
+    "endLine": 32
+  },
+  {
+    "outputFile": "Composition-Questionnaire-GAD7.json",
+    "fshName": "Questionnaire-GAD7",
+    "fshType": "Instance",
+    "fshFile": "comp_gad.fsh",
+    "startLine": 5,
+    "endLine": 32
+  },
+  {
+    "outputFile": "Composition-Questionnaire-PHQ9.json",
+    "fshName": "Questionnaire-PHQ9",
+    "fshType": "Instance",
+    "fshFile": "comp_phq.fsh",
+    "startLine": 5,
+    "endLine": 32
+  },
+  {
+    "outputFile": "Composition-Questionnaire-PSS10.json",
+    "fshName": "Questionnaire-PSS10",
+    "fshType": "Instance",
+    "fshFile": "comp_pss.fsh",
+    "startLine": 5,
+    "endLine": 32
+  },
+  {
+    "outputFile": "Questionnaire-example-CDRS25.json",
+    "fshName": "example-CDRS25",
+    "fshType": "Instance",
+    "fshFile": "cdrs.fsh",
+    "startLine": 1,
+    "endLine": 155
+  },
+  {
+    "outputFile": "Questionnaire-example-GAD7.json",
+    "fshName": "example-GAD7",
+    "fshType": "Instance",
+    "fshFile": "gad.fsh",
+    "startLine": 1,
+    "endLine": 68
+  },
+  {
+    "outputFile": "Questionnaire-example-HEADER.json",
+    "fshName": "example-HEADER",
+    "fshType": "Instance",
+    "fshFile": "header.fsh",
+    "startLine": 1,
+    "endLine": 100
+  },
+  {
+    "outputFile": "Questionnaire-example-PHQ9.json",
+    "fshName": "example-PHQ9",
+    "fshType": "Instance",
+    "fshFile": "phq.fsh",
+    "startLine": 4,
+    "endLine": 79
+  },
+  {
+    "outputFile": "Questionnaire-example-PSS10.json",
+    "fshName": "example-PSS10",
+    "fshType": "Instance",
+    "fshFile": "pss.fsh",
+    "startLine": 1,
+    "endLine": 80
+  }
+]

@@ -1,0 +1,200 @@
+DeepDiveIG : Validation Results
+=========================================
+
+err = 62, warn = 26, info = 4
+IG Publisher Version: 1.6.1 Out of date - current version is 1.6.3
+Generated Wed Apr 03 21:57:50 EDT 2024. FHIR version 4.0.1 for fhir.kr.deepdive#0.1.0 (canonical = http://example.org)
+ Build Errors : 79 / 8 / 0
+ C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\fsh-generated\resources\Composition-Questionnaire-CDRS25 : 9 / 0 / 2
+ C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\fsh-generated\resources\Composition-Questionnaire-GAD7 : 9 / 0 / 2
+ C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\fsh-generated\resources\Composition-Questionnaire-PHQ9 : 9 / 0 / 2
+ C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\fsh-generated\resources\Composition-Questionnaire-PSS10 : 9 / 0 / 2
+ C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\fsh-generated\resources\ImplementationGuide-fhir.kr.deepdive : 0 / 0 / 1
+ C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\fsh-generated\resources\Questionnaire-example-CDRS25 : 5 / 4 / 2
+ C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\fsh-generated\resources\Questionnaire-example-GAD7 : 5 / 4 / 2
+ C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\fsh-generated\resources\Questionnaire-example-HEADER : 6 / 4 / 2
+ C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\fsh-generated\resources\Questionnaire-example-PHQ9 : 5 / 2 / 2
+ C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\fsh-generated\resources\Questionnaire-example-PSS10 : 5 / 4 / 2
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Composition/Questionnaire-CDRS25.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Composition/Questionnaire-GAD7.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Composition/Questionnaire-PHQ9.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Composition/Questionnaire-PSS10.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-CDRS25.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-CDRS25.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 915: The link 'Encounter/xcda' for "Encounter/xcda" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-CDRS25.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1024: The link 'Practitioner/xcda-author' for "Practitioner/xcda-author: Doctor, MD" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-CDRS25.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 167, column 1399: The link 'Practitioner/xcda-author' for "Practitioner/xcda-author: Harold Hippocrates, MD" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-CDRS25.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1525: The link 'Organization/2.16.840.1.113883.19.5' for "Organization/2.16.840.1.113883.19.5: Good Health Clinic" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-CDRS25.html#/html/body/div/div/div/p/a at Line 198, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-CDRS25.json.html#/html/body/div/div/div/p/a at Line 303, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-CDRS25.ttl.html#/html/body/div/div/div/p/a at Line 284, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-CDRS25.xml.html#/html/body/div/div/div/p/a at Line 283, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-GAD7.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-GAD7.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 909: The link 'Encounter/xcda' for "Encounter/xcda" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-GAD7.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1018: The link 'Practitioner/xcda-author' for "Practitioner/xcda-author: Doctor, MD" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-GAD7.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 167, column 1389: The link 'Practitioner/xcda-author' for "Practitioner/xcda-author: Harold Hippocrates, MD" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-GAD7.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1515: The link 'Organization/2.16.840.1.113883.19.5' for "Organization/2.16.840.1.113883.19.5: Good Health Clinic" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-GAD7.html#/html/body/div/div/div/p/a at Line 198, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-GAD7.json.html#/html/body/div/div/div/p/a at Line 303, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-GAD7.ttl.html#/html/body/div/div/div/p/a at Line 284, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-GAD7.xml.html#/html/body/div/div/div/p/a at Line 283, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-PHQ9.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-PHQ9.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 909: The link 'Encounter/xcda' for "Encounter/xcda" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-PHQ9.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1018: The link 'Practitioner/xcda-author' for "Practitioner/xcda-author: Doctor, MD" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-PHQ9.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 167, column 1389: The link 'Practitioner/xcda-author' for "Practitioner/xcda-author: Harold Hippocrates, MD" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-PHQ9.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1515: The link 'Organization/2.16.840.1.113883.19.5' for "Organization/2.16.840.1.113883.19.5: Good Health Clinic" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-PHQ9.html#/html/body/div/div/div/p/a at Line 198, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-PHQ9.json.html#/html/body/div/div/div/p/a at Line 303, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-PHQ9.ttl.html#/html/body/div/div/div/p/a at Line 284, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-PHQ9.xml.html#/html/body/div/div/div/p/a at Line 283, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-PSS10.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-PSS10.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 912: The link 'Encounter/xcda' for "Encounter/xcda" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-PSS10.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1021: The link 'Practitioner/xcda-author' for "Practitioner/xcda-author: Doctor, MD" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-PSS10.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 167, column 1386: The link 'Practitioner/xcda-author' for "Practitioner/xcda-author: Harold Hippocrates, MD" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-PSS10.html#/html/body/div/div/div/div/div/div/p/a at Line 167, column 1512: The link 'Organization/2.16.840.1.113883.19.5' for "Organization/2.16.840.1.113883.19.5: Good Health Clinic" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-PSS10.html#/html/body/div/div/div/p/a at Line 198, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-PSS10.json.html#/html/body/div/div/div/p/a at Line 303, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-PSS10.ttl.html#/html/body/div/div/div/p/a at Line 284, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Composition-Questionnaire-PSS10.xml.html#/html/body/div/div/div/p/a at Line 283, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-CDRS25-testing.html#/html/body/div/div/div/p/a at Line 220, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-CDRS25.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-CDRS25.html#/html/body/div/div/div/p/a at Line 282, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-CDRS25.json.html#/html/body/div/div/div/p/a at Line 533, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-CDRS25.ttl.html#/html/body/div/div/div/p/a at Line 435, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-CDRS25.xml.html#/html/body/div/div/div/p/a at Line 529, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-GAD7-testing.html#/html/body/div/div/div/p/a at Line 220, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-GAD7.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-GAD7.html#/html/body/div/div/div/p/a at Line 264, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-GAD7.json.html#/html/body/div/div/div/p/a at Line 415, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-GAD7.ttl.html#/html/body/div/div/div/p/a at Line 358, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-GAD7.xml.html#/html/body/div/div/div/p/a at Line 395, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-HEADER-testing.html#/html/body/div/div/div/p/a at Line 220, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-HEADER.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-HEADER.html#/html/body/div/div/div/p/a at Line 272, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-HEADER.json.html#/html/body/div/div/div/p/a at Line 472, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-HEADER.ttl.html#/html/body/div/div/div/p/a at Line 394, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-HEADER.xml.html#/html/body/div/div/div/p/a at Line 468, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-PHQ9-testing.html#/html/body/div/div/div/p/a at Line 220, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-PHQ9.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-PHQ9.html#/html/body/div/div/div/p/a at Line 266, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-PHQ9.json.html#/html/body/div/div/div/p/a at Line 427, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-PHQ9.ttl.html#/html/body/div/div/div/p/a at Line 366, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-PHQ9.xml.html#/html/body/div/div/div/p/a at Line 414, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-PSS10-testing.html#/html/body/div/div/div/p/a at Line 220, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-PSS10.change.history.html#/html/body/div/div/div/p/a at Line 210, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-PSS10.html#/html/body/div/div/div/p/a at Line 267, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-PSS10.json.html#/html/body/div/div/div/p/a at Line 443, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-PSS10.ttl.html#/html/body/div/div/div/p/a at Line 375, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\Questionnaire-example-PSS10.xml.html#/html/body/div/div/div/p/a at Line 434, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\ValueSet-example-CDRS25_VSCDRS25-testing.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\ValueSet-example-CDRS25_VSCDRS25.html#/html/body/div/div/div/p/a at Line 267, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\ValueSet-example-GAD7_VSGAD7-testing.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\ValueSet-example-GAD7_VSGAD7.html#/html/body/div/div/div/p/a at Line 267, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\ValueSet-example-HEADER_VSPPS10-testing.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\ValueSet-example-HEADER_VSPPS10.html#/html/body/div/div/div/p/a at Line 267, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\ValueSet-example-PHQ9_VSPHQ9-testing.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\ValueSet-example-PHQ9_VSPHQ9.html#/html/body/div/div/div/p/a at Line 266, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\ValueSet-example-PSS10_VSPPS10-testing.html#/html/body/div/div/div/p/a at Line 200, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\ValueSet-example-PSS10_VSPPS10.html#/html/body/div/div/div/p/a at Line 267, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\artifacts.html#/html/body/div/div/div/p/a at Line 250, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\index.html#/html/body/div/div/div/p/a at Line 255, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+ERROR: C:\Users\jhlee\Desktop\DeepDive\DeepDiveIG\output\toc.html#/html/body/div/div/div/p/a at Line 145, column 28: The link 'http://example.org/example-publisher' for "Yonsei University" cannot be resolved
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated\resources\Composition-Questionnaire-CDRS25.json ==
+INFORMATION: Composition/Questionnaire-CDRS25: Composition.type: None of the codings provided are in the value set 'FHIR Document Type Codes' (http://hl7.org/fhir/ValueSet/doc-typecodes|4.0.1), and a coding is recommended to come from this value set) (codes = http://loinc.org#71950-0)
+ERROR: Composition/Questionnaire-CDRS25: Composition.subject: Unable to resolve resource with reference 'Patient/xcda'
+ERROR: Composition/Questionnaire-CDRS25: Composition.encounter: Unable to resolve resource with reference 'Encounter/xcda'
+ERROR: Composition/Questionnaire-CDRS25: Composition.author[0]: Unable to resolve resource with reference 'Practitioner/xcda-author'
+ERROR: Composition/Questionnaire-CDRS25: Composition.attester[0].party: Unable to resolve resource with reference 'Practitioner/xcda-author'
+ERROR: Composition/Questionnaire-CDRS25: Composition.custodian: Unable to resolve resource with reference 'Organization/2.16.840.1.113883.19.5'
+ERROR: Composition.text.div: Hyperlink 'Encounter/xcda' at 'div/p/a' for 'Encounter/xcda' does not resolve
+ERROR: Composition.text.div: Hyperlink 'Practitioner/xcda-author' at 'div/p/a' for 'Practitioner/xcda-author: Doctor, MD' does not resolve
+ERROR: Composition.text.div: Hyperlink 'Practitioner/xcda-author' at 'div/table/tr/td/a' for 'Practitioner/xcda-author: Harold Hippocrates, MD' does not resolve
+ERROR: Composition.text.div: Hyperlink 'Organization/2.16.840.1.113883.19.5' at 'div/p/a' for 'Organization/2.16.840.1.113883.19.5: Good Health Clinic' does not resolve
+== fsh-generated\resources\Composition-Questionnaire-GAD7.json ==
+INFORMATION: Composition/Questionnaire-GAD7: Composition.type: None of the codings provided are in the value set 'FHIR Document Type Codes' (http://hl7.org/fhir/ValueSet/doc-typecodes|4.0.1), and a coding is recommended to come from this value set) (codes = http://loinc.org#71950-0)
+ERROR: Composition/Questionnaire-GAD7: Composition.subject: Unable to resolve resource with reference 'Patient/xcda'
+ERROR: Composition/Questionnaire-GAD7: Composition.encounter: Unable to resolve resource with reference 'Encounter/xcda'
+ERROR: Composition/Questionnaire-GAD7: Composition.author[0]: Unable to resolve resource with reference 'Practitioner/xcda-author'
+ERROR: Composition/Questionnaire-GAD7: Composition.attester[0].party: Unable to resolve resource with reference 'Practitioner/xcda-author'
+ERROR: Composition/Questionnaire-GAD7: Composition.custodian: Unable to resolve resource with reference 'Organization/2.16.840.1.113883.19.5'
+ERROR: Composition.text.div: Hyperlink 'Encounter/xcda' at 'div/p/a' for 'Encounter/xcda' does not resolve
+ERROR: Composition.text.div: Hyperlink 'Practitioner/xcda-author' at 'div/p/a' for 'Practitioner/xcda-author: Doctor, MD' does not resolve
+ERROR: Composition.text.div: Hyperlink 'Practitioner/xcda-author' at 'div/table/tr/td/a' for 'Practitioner/xcda-author: Harold Hippocrates, MD' does not resolve
+ERROR: Composition.text.div: Hyperlink 'Organization/2.16.840.1.113883.19.5' at 'div/p/a' for 'Organization/2.16.840.1.113883.19.5: Good Health Clinic' does not resolve
+== fsh-generated\resources\Composition-Questionnaire-PHQ9.json ==
+INFORMATION: Composition/Questionnaire-PHQ9: Composition.type: None of the codings provided are in the value set 'FHIR Document Type Codes' (http://hl7.org/fhir/ValueSet/doc-typecodes|4.0.1), and a coding is recommended to come from this value set) (codes = http://loinc.org#71950-0)
+ERROR: Composition/Questionnaire-PHQ9: Composition.subject: Unable to resolve resource with reference 'Patient/xcda'
+ERROR: Composition/Questionnaire-PHQ9: Composition.encounter: Unable to resolve resource with reference 'Encounter/xcda'
+ERROR: Composition/Questionnaire-PHQ9: Composition.author[0]: Unable to resolve resource with reference 'Practitioner/xcda-author'
+ERROR: Composition/Questionnaire-PHQ9: Composition.attester[0].party: Unable to resolve resource with reference 'Practitioner/xcda-author'
+ERROR: Composition/Questionnaire-PHQ9: Composition.custodian: Unable to resolve resource with reference 'Organization/2.16.840.1.113883.19.5'
+ERROR: Composition.text.div: Hyperlink 'Encounter/xcda' at 'div/p/a' for 'Encounter/xcda' does not resolve
+ERROR: Composition.text.div: Hyperlink 'Practitioner/xcda-author' at 'div/p/a' for 'Practitioner/xcda-author: Doctor, MD' does not resolve
+ERROR: Composition.text.div: Hyperlink 'Practitioner/xcda-author' at 'div/table/tr/td/a' for 'Practitioner/xcda-author: Harold Hippocrates, MD' does not resolve
+ERROR: Composition.text.div: Hyperlink 'Organization/2.16.840.1.113883.19.5' at 'div/p/a' for 'Organization/2.16.840.1.113883.19.5: Good Health Clinic' does not resolve
+== fsh-generated\resources\Composition-Questionnaire-PSS10.json ==
+INFORMATION: Composition/Questionnaire-PSS10: Composition.type: None of the codings provided are in the value set 'FHIR Document Type Codes' (http://hl7.org/fhir/ValueSet/doc-typecodes|4.0.1), and a coding is recommended to come from this value set) (codes = http://loinc.org#71950-0)
+ERROR: Composition/Questionnaire-PSS10: Composition.subject: Unable to resolve resource with reference 'Patient/xcda'
+ERROR: Composition/Questionnaire-PSS10: Composition.encounter: Unable to resolve resource with reference 'Encounter/xcda'
+ERROR: Composition/Questionnaire-PSS10: Composition.author[0]: Unable to resolve resource with reference 'Practitioner/xcda-author'
+ERROR: Composition/Questionnaire-PSS10: Composition.attester[0].party: Unable to resolve resource with reference 'Practitioner/xcda-author'
+ERROR: Composition/Questionnaire-PSS10: Composition.custodian: Unable to resolve resource with reference 'Organization/2.16.840.1.113883.19.5'
+ERROR: Composition.text.div: Hyperlink 'Encounter/xcda' at 'div/p/a' for 'Encounter/xcda' does not resolve
+ERROR: Composition.text.div: Hyperlink 'Practitioner/xcda-author' at 'div/p/a' for 'Practitioner/xcda-author: Doctor, MD' does not resolve
+ERROR: Composition.text.div: Hyperlink 'Practitioner/xcda-author' at 'div/table/tr/td/a' for 'Practitioner/xcda-author: Harold Hippocrates, MD' does not resolve
+ERROR: Composition.text.div: Hyperlink 'Organization/2.16.840.1.113883.19.5' at 'div/p/a' for 'Organization/2.16.840.1.113883.19.5: Good Health Clinic' does not resolve
+== fsh-generated\resources\ImplementationGuide-fhir.kr.deepdive.json ==
+== fsh-generated\resources\Questionnaire-example-CDRS25.json ==
+ERROR: Questionnaire/example-CDRS25: Questionnaire.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0' does not resolve
+WARNING: Questionnaire/example-CDRS25: Questionnaire.contained[0]/*ValueSet/VSCDRS25*/.compose.include[0]: Unknown System 'http://hl7.org/fhir/uv/sdc/CodeSystem/VSCDRS25' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://hl7.org/fhir/uv/sdc/CodeSystem/VSCDRS25' could not be found, so the code cannot be validated)
+ERROR: Questionnaire/example-CDRS25: Questionnaire.contained[0]/*ValueSet/VSCDRS25*/.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset' does not resolve
+ERROR: Questionnaire/example-CDRS25: Questionnaire.contained[0]/*ValueSet/VSCDRS25*/.compose.include[0].system: URL value 'http://hl7.org/fhir/uv/sdc/CodeSystem/VSCDRS25' does not resolve
+WARNING: Questionnaire/example-CDRS25: Questionnaire.contained[0]/*ValueSet/VSCDRS25*/.meta.profile[0]: Profile reference 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+ERROR: Questionnaire/example-CDRS25: Questionnaire.item[0].item[25].extension[0]: The extension http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-calculatedExpression could not be found so is not allowed here
+ERROR: Questionnaire/example-CDRS25: Questionnaire.item[0].item[25].extension[0].url: URL value 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-calculatedExpression' does not resolve
+WARNING: Questionnaire/example-CDRS25: Questionnaire.meta.profile[0]: Profile reference 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+WARNING: ValueSet.where(id = 'VSCDRS25'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://hl7.org/fhir/uv/sdc/CodeSystem/VSCDRS25
+== fsh-generated\resources\Questionnaire-example-GAD7.json ==
+ERROR: Questionnaire/example-GAD7: Questionnaire.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0' does not resolve
+WARNING: Questionnaire/example-GAD7: Questionnaire.contained[0]/*ValueSet/VSGAD7*/.compose.include[0]: Unknown System 'http://hl7.org/fhir/uv/sdc/CodeSystem/VSGAD7' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://hl7.org/fhir/uv/sdc/CodeSystem/VSGAD7' could not be found, so the code cannot be validated)
+ERROR: Questionnaire/example-GAD7: Questionnaire.contained[0]/*ValueSet/VSGAD7*/.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset' does not resolve
+ERROR: Questionnaire/example-GAD7: Questionnaire.contained[0]/*ValueSet/VSGAD7*/.compose.include[0].system: URL value 'http://hl7.org/fhir/uv/sdc/CodeSystem/VSGAD7' does not resolve
+WARNING: Questionnaire/example-GAD7: Questionnaire.contained[0]/*ValueSet/VSGAD7*/.meta.profile[0]: Profile reference 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+ERROR: Questionnaire/example-GAD7: Questionnaire.item[0].item[7].extension[0]: The extension http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-calculatedExpression could not be found so is not allowed here
+ERROR: Questionnaire/example-GAD7: Questionnaire.item[0].item[7].extension[0].url: URL value 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-calculatedExpression' does not resolve
+WARNING: Questionnaire/example-GAD7: Questionnaire.meta.profile[0]: Profile reference 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+WARNING: ValueSet.where(id = 'VSGAD7'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://hl7.org/fhir/uv/sdc/CodeSystem/VSGAD7
+== fsh-generated\resources\Questionnaire-example-HEADER.json ==
+ERROR: Questionnaire/example-HEADER: Questionnaire.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0' does not resolve
+WARNING: Questionnaire/example-HEADER: Questionnaire.contained[0]/*ValueSet/VSPPS10*/.compose.include[0]: Unknown System 'http://hl7.org/fhir/uv/sdc/CodeSystem/VSPPS10' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://hl7.org/fhir/uv/sdc/CodeSystem/VSPPS10' could not be found, so the code cannot be validated)
+ERROR: Questionnaire/example-HEADER: Questionnaire.contained[0]/*ValueSet/VSPPS10*/.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset' does not resolve
+ERROR: Questionnaire/example-HEADER: Questionnaire.contained[0]/*ValueSet/VSPPS10*/.compose.include[0].system: URL value 'http://hl7.org/fhir/uv/sdc/CodeSystem/VSPPS10' does not resolve
+WARNING: Questionnaire/example-HEADER: Questionnaire.contained[0]/*ValueSet/VSPPS10*/.meta.profile[0]: Profile reference 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+ERROR: Questionnaire/example-HEADER: Questionnaire.item[0].item[15].extension[0]: The extension http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-calculatedExpression could not be found so is not allowed here
+ERROR: Questionnaire/example-HEADER: Questionnaire.item[0].item[15].extension[0].url: URL value 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-calculatedExpression' does not resolve
+WARNING: Questionnaire/example-HEADER: Questionnaire.meta.profile[0]: Profile reference 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+ERROR: Questionnaire/example-HEADER: Questionnaire.contained[0]: The contained resource 'VSPPS10' is not referenced to from elsewhere in the containing resource nor does it refer to the containing resource (dom-3)
+WARNING: ValueSet.where(id = 'VSPPS10'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://hl7.org/fhir/uv/sdc/CodeSystem/VSPPS10
+== fsh-generated\resources\Questionnaire-example-PHQ9.json ==
+ERROR: Questionnaire/example-PHQ9: Questionnaire.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0' does not resolve
+ERROR: Questionnaire/example-PHQ9: Questionnaire.contained[0]/*ValueSet/VSPHQ9*/.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset' does not resolve
+ERROR: Questionnaire/example-PHQ9: Questionnaire.contained[0]/*ValueSet/VSPHQ9*/.compose.include[0].system: URL value 'http://hl7.org/fhir/uv/sdc/CodeSystem/CSPHQ9' does not resolve
+WARNING: Questionnaire/example-PHQ9: Questionnaire.contained[0]/*ValueSet/VSPHQ9*/.meta.profile[0]: Profile reference 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+ERROR: Questionnaire/example-PHQ9: Questionnaire.item[0].item[9].extension[0]: The extension http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-calculatedExpression could not be found so is not allowed here
+ERROR: Questionnaire/example-PHQ9: Questionnaire.item[0].item[9].extension[0].url: URL value 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-calculatedExpression' does not resolve
+WARNING: Questionnaire/example-PHQ9: Questionnaire.meta.profile[0]: Profile reference 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated\resources\Questionnaire-example-PSS10.json ==
+ERROR: Questionnaire/example-PSS10: Questionnaire.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0' does not resolve
+WARNING: Questionnaire/example-PSS10: Questionnaire.contained[0]/*ValueSet/VSPPS10*/.compose.include[0]: Unknown System 'http://hl7.org/fhir/uv/sdc/CodeSystem/VSPPS10' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'http://hl7.org/fhir/uv/sdc/CodeSystem/VSPPS10' could not be found, so the code cannot be validated)
+ERROR: Questionnaire/example-PSS10: Questionnaire.contained[0]/*ValueSet/VSPPS10*/.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset' does not resolve
+ERROR: Questionnaire/example-PSS10: Questionnaire.contained[0]/*ValueSet/VSPPS10*/.compose.include[0].system: URL value 'http://hl7.org/fhir/uv/sdc/CodeSystem/VSPPS10' does not resolve
+WARNING: Questionnaire/example-PSS10: Questionnaire.contained[0]/*ValueSet/VSPPS10*/.meta.profile[0]: Profile reference 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+ERROR: Questionnaire/example-PSS10: Questionnaire.item[0].item[10].extension[0]: The extension http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-calculatedExpression could not be found so is not allowed here
+ERROR: Questionnaire/example-PSS10: Questionnaire.item[0].item[10].extension[0].url: URL value 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-calculatedExpression' does not resolve
+WARNING: Questionnaire/example-PSS10: Questionnaire.meta.profile[0]: Profile reference 'http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+WARNING: ValueSet.where(id = 'VSPPS10'): Error from http://tx.fhir.org/r4: Unable to provide support for code system http://hl7.org/fhir/uv/sdc/CodeSystem/VSPPS10

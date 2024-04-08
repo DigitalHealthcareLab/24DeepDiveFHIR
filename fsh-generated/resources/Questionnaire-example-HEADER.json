@@ -1,0 +1,255 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "example-HEADER",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0"
+    ]
+  },
+  "contained": [
+    {
+      "resourceType": "ValueSet",
+      "id": "VSPPS10",
+      "meta": {
+        "profile": [
+          "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset"
+        ]
+      },
+      "compose": {
+        "include": [
+          {
+            "concept": [
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                    "valueDecimal": 0
+                  }
+                ],
+                "code": "Never",
+                "display": "Never"
+              },
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                    "valueDecimal": 1
+                  }
+                ],
+                "code": "Almost-Never",
+                "display": "Almost Never"
+              },
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                    "valueDecimal": 2
+                  }
+                ],
+                "code": "Sometimes",
+                "display": "Sometimes"
+              },
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                    "valueDecimal": 3
+                  }
+                ],
+                "code": "Fairly often",
+                "display": "Fairly often"
+              },
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                    "valueDecimal": 4
+                  }
+                ],
+                "code": "Very often",
+                "display": "Very often"
+              }
+            ],
+            "system": "http://hl7.org/fhir/uv/sdc/CodeSystem/VSPPS10"
+          }
+        ]
+      },
+      "url": "http://hl7.org/fhir/uv/sdc/ValueSet/VSPPS10",
+      "name": "VSPPS10",
+      "status": "draft",
+      "description": "The answer list for questions addressing the frequency in which patient reports experiencing behaviors that are assessed in the PPS10 Questionnaire.",
+      "immutable": true
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/rendering-styleSensitive",
+      "valueBoolean": true
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode": "fhir"
+    }
+  ],
+  "subjectType": [
+    "Patient"
+  ],
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.dhlab.org/"
+        }
+      ],
+      "name": "Yonsei University"
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "001",
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "display": "World"
+        }
+      ]
+    }
+  ],
+  "effectivePeriod": {
+    "start": "2018-08-20T04:00:00.000Z",
+    "end": "2020-08-20T04:00:00.000Z"
+  },
+  "item": [
+    {
+      "item": [
+        {
+          "linkId": "H1/T1/Q1",
+          "text": "What is your age?",
+          "type": "text"
+        },
+        {
+          "linkId": "H1/T1/Q2",
+          "text": "What is your gender?",
+          "type": "choice",
+          "answerValueSet": "#VSPPS10-1"
+        },
+        {
+          "linkId": "H1/T1/Q3",
+          "text": "What is your marital status?",
+          "type": "choice",
+          "answerValueSet": "#VSPPS10-2"
+        },
+        {
+          "linkId": "H1/T1/Q4",
+          "text": "What is the highest level of education you have completed?",
+          "type": "choice",
+          "answerValueSet": "#VSPPS10-3"
+        },
+        {
+          "linkId": "H1/T1/Q5",
+          "text": "What is your employment status?",
+          "type": "choice",
+          "answerValueSet": "#VSPPS10-4"
+        },
+        {
+          "linkId": "H1/T1/Q6",
+          "text": "How many years of experience do you have in your current field of work?",
+          "type": "choice",
+          "answerValueSet": "#VSPPS10-5"
+        },
+        {
+          "linkId": "H1/T1/Q7",
+          "text": "In the last 6 months, have you practiced meditation for more than 60 minutes per month?",
+          "type": "choice",
+          "answerValueSet": "#VSPPS10-6"
+        },
+        {
+          "linkId": "H1/T1/Q8",
+          "text": "Have you received a psychiatric diagnosis in the past year?",
+          "type": "choice",
+          "answerValueSet": "#VSPPS10-6"
+        },
+        {
+          "linkId": "H1/T1/Q9",
+          "text": "Do you have a history of being diagnosed with cognitive disorders such as dementia or intellectual disability?",
+          "type": "choice",
+          "answerValueSet": "#VSPPS10-6"
+        },
+        {
+          "linkId": "H1/T1/Q10",
+          "text": "Have you been diagnosed with neurological disorders such as epilepsy, stroke, or brain tumor?",
+          "type": "choice",
+          "answerValueSet": "#VSPPS10-6"
+        },
+        {
+          "linkId": "H1/T1/Q11",
+          "text": "Do you have a current or past history of psychosis, such as schizophrenia or bipolar disorder?",
+          "type": "choice",
+          "answerValueSet": "#VSPPS10-6"
+        },
+        {
+          "linkId": "H1/T1/Q12",
+          "text": "Do you have a history of traumatic brain injury or seizures?",
+          "type": "choice",
+          "answerValueSet": "#VSPPS10-6"
+        },
+        {
+          "linkId": "H1/T1/Q13",
+          "text": "Do you currently have suicidal thoughts?",
+          "type": "choice",
+          "answerValueSet": "#VSPPS10-6"
+        },
+        {
+          "linkId": "H1/T1/Q14",
+          "text": "Do you have a history of heart or lung disease or any other conditions that could affect heart rate variability measurements?",
+          "type": "choice",
+          "answerValueSet": "#VSPPS10-6"
+        },
+        {
+          "linkId": "H1/T1/Q15",
+          "text": "In the last 6 months, have you received any non-pharmacological psychiatric treatment, counseling, or meditation training?",
+          "type": "choice",
+          "answerValueSet": "#VSPPS10-6"
+        },
+        {
+          "extension": [
+            {
+              "valueExpression": {
+                "description": "Score (0-4: None-minimal; 5-9: Mild; 19-14: Moderate; 15-19: Moderately severe; 20-27: Severe)",
+                "name": "score",
+                "language": "text/fhirpath",
+                "expression": "%resource.answers().value.ordinal().sum()"
+              },
+              "url": "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-calculatedExpression"
+            }
+          ],
+          "code": [
+            {
+              "code": "64394-0",
+              "system": "http://loinc.org",
+              "display": "PhenX - perceived stress protocol 180801"
+            }
+          ],
+          "linkId": "H1/TS",
+          "text": "PhenX - perceived stress protocol 180801",
+          "type": "quantity"
+        }
+      ],
+      "linkId": "H1/T1",
+      "text": "The question in this scale asks you about your feelings and thoughts during the last month. In each case, you will be asked to indicate by circling how often you felt or thought a certain way.",
+      "type": "group"
+    }
+  ],
+  "url": "http://hl7.org/fhir/uv/sdc/Questionnaire/example-HEADER",
+  "version": "3.0.0",
+  "name": "SDCHEADER",
+  "title": "Questionnaire Header",
+  "status": "draft",
+  "experimental": true,
+  "date": "2023-12-07T23:07:45+00:00",
+  "publisher": "Yonsei University",
+  "description": "This is a Questionnaire example of patient demographics.",
+  "purpose": "This Questionnaire example was generated to ensure a non-proprietary, publicly available questionnaire that is available to test the Structured Data Capture profiles",
+  "approvalDate": "2019-08-20"
+}

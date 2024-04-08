@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="841600f3-2812-4772-b325-f44148eb7eaa"/>
+  <meta>
+    <lastUpdated value="2024-04-03T21:56:28.569-04:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://hl7.org/fhir/uv/sdc/ValueSet/VSPHQ9"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on codesystem http://hl7.org/fhir/uv/sdc/CodeSystem/CSPHQ9 version 3.0.0</p>
+            <p>This value set contains 4 concepts.</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-sdc-CodeSystem-CSPHQ9-Not-at-all"> </a>  Not-at-all
+                </td>
+                <td>http://hl7.org/fhir/uv/sdc/CodeSystem/CSPHQ9</td>
+                <td>Not at all</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-sdc-CodeSystem-CSPHQ9-Several-days"> </a>  Several-days
+                </td>
+                <td>http://hl7.org/fhir/uv/sdc/CodeSystem/CSPHQ9</td>
+                <td>Several days</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-sdc-CodeSystem-CSPHQ9-More-than-half-the-days"> </a>  More than half the days
+                </td>
+                <td>http://hl7.org/fhir/uv/sdc/CodeSystem/CSPHQ9</td>
+                <td>More than half the days</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---hl7.org-fhir-uv-sdc-CodeSystem-CSPHQ9-Nearly-every-day"> </a>  Nearly every day
+                </td>
+                <td>http://hl7.org/fhir/uv/sdc/CodeSystem/CSPHQ9</td>
+                <td>Nearly every day</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://hl7.org/fhir/uv/sdc/ValueSet/VSPHQ9"/>
+        <version value="0.1.0"/>
+        <name value="VSPHQ9"/>
+        <status value="draft"/>
+        <immutable value="true"/>
+        <expansion>
+          <identifier value="urn:uuid:e9900348-c375-4561-992d-c06563898999"/>
+          <timestamp value="2024-04-03T21:56:57-04:00"/>
+          <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="warning-draft"/>
+            <valueUri value="http://hl7.org/fhir/uv/sdc/CodeSystem/CSPHQ9|3.0.0"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://hl7.org/fhir/uv/sdc/CodeSystem/CSPHQ9|3.0.0"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://hl7.org/fhir/uv/sdc/CodeSystem/CSPHQ9|3.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/sdc/CodeSystem/CSPHQ9"/>
+            <code value="Not-at-all"/>
+            <display value="Not at all"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/sdc/CodeSystem/CSPHQ9"/>
+            <code value="Several-days"/>
+            <display value="Several days"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/sdc/CodeSystem/CSPHQ9"/>
+            <code value="More than half the days"/>
+            <display value="More than half the days"/>
+          </contains>
+          <contains>
+            <system value="http://hl7.org/fhir/uv/sdc/CodeSystem/CSPHQ9"/>
+            <code value="Nearly every day"/>
+            <display value="Nearly every day"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

@@ -1,0 +1,9 @@
+[example-CDRS25]: Questionnaire-example-CDRS25.html
+[Questionnaire-CDRS25]: Composition-Questionnaire-CDRS25.html
+[example-GAD7]: Questionnaire-example-GAD7.html
+[Questionnaire-GAD7]: Composition-Questionnaire-GAD7.html
+[example-PHQ9]: Questionnaire-example-PHQ9.html
+[Questionnaire-PHQ9]: Composition-Questionnaire-PHQ9.html
+[example-PSS10]: Questionnaire-example-PSS10.html
+[Questionnaire-PSS10]: Composition-Questionnaire-PSS10.html
+[example-HEADER]: Questionnaire-example-HEADER.html

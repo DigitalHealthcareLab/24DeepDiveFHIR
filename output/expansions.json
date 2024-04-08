@@ -1,0 +1,80 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "841600f3-2812-4772-b325-f44148eb7eaa",
+  "meta" : {
+    "lastUpdated" : "2024-04-03T21:56:28.569-04:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://hl7.org/fhir/uv/sdc/ValueSet/VSPHQ9",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "meta" : {
+        "profile" : ["http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset"]
+      },
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on codesystem http://hl7.org/fhir/uv/sdc/CodeSystem/CSPHQ9 version 3.0.0</p><p>This value set contains 4 concepts.</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-uv-sdc-CodeSystem-CSPHQ9-Not-at-all\"> </a>\u00a0\u00a0Not-at-all</td><td>http://hl7.org/fhir/uv/sdc/CodeSystem/CSPHQ9</td><td>Not at all</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-uv-sdc-CodeSystem-CSPHQ9-Several-days\"> </a>\u00a0\u00a0Several-days</td><td>http://hl7.org/fhir/uv/sdc/CodeSystem/CSPHQ9</td><td>Several days</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-uv-sdc-CodeSystem-CSPHQ9-More-than-half-the-days\"> </a>\u00a0\u00a0More than half the days</td><td>http://hl7.org/fhir/uv/sdc/CodeSystem/CSPHQ9</td><td>More than half the days</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---hl7.org-fhir-uv-sdc-CodeSystem-CSPHQ9-Nearly-every-day\"> </a>\u00a0\u00a0Nearly every day</td><td>http://hl7.org/fhir/uv/sdc/CodeSystem/CSPHQ9</td><td>Nearly every day</td></tr></table></div>"
+      },
+      "url" : "http://hl7.org/fhir/uv/sdc/ValueSet/VSPHQ9",
+      "version" : "0.1.0",
+      "name" : "VSPHQ9",
+      "status" : "draft",
+      "immutable" : true,
+      "expansion" : {
+        "identifier" : "urn:uuid:e9900348-c375-4561-992d-c06563898999",
+        "timestamp" : "2024-04-03T21:56:57-04:00",
+        "total" : 4,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "warning-draft",
+          "valueUri" : "http://hl7.org/fhir/uv/sdc/CodeSystem/CSPHQ9|3.0.0"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://hl7.org/fhir/uv/sdc/CodeSystem/CSPHQ9|3.0.0"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://hl7.org/fhir/uv/sdc/CodeSystem/CSPHQ9|3.0.0"
+        }],
+        "contains" : [{
+          "system" : "http://hl7.org/fhir/uv/sdc/CodeSystem/CSPHQ9",
+          "code" : "Not-at-all",
+          "display" : "Not at all"
+        },
+        {
+          "system" : "http://hl7.org/fhir/uv/sdc/CodeSystem/CSPHQ9",
+          "code" : "Several-days",
+          "display" : "Several days"
+        },
+        {
+          "system" : "http://hl7.org/fhir/uv/sdc/CodeSystem/CSPHQ9",
+          "code" : "More than half the days",
+          "display" : "More than half the days"
+        },
+        {
+          "system" : "http://hl7.org/fhir/uv/sdc/CodeSystem/CSPHQ9",
+          "code" : "Nearly every day",
+          "display" : "Nearly every day"
+        }]
+      }
+    }
+  }]
+}

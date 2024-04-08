@@ -1,0 +1,49 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://hl7.org/fhir/uv/sdc/ValueSet/VSCDRS25",
+      "version" : null,
+      "status" : "draft",
+      "name" : "VSCDRS25",
+      "title" : null,
+      "description" : "The answer list for questions addressing the frequency in which patient reports experiencing behaviors that are assessed in the PPS10 Questionnaire.",
+      "systems" : ["http://hl7.org/fhir/uv/sdc/CodeSystem/VSCDRS25"]
+    },
+    {
+      "url" : "http://hl7.org/fhir/uv/sdc/ValueSet/VSGAD7",
+      "version" : null,
+      "status" : "draft",
+      "name" : "VSGAD7",
+      "title" : null,
+      "description" : "The answer list for questions addressing the frequency in which patient reports experiencing behaviors that are assessed in the PPS10 Questionnaire.",
+      "systems" : ["http://hl7.org/fhir/uv/sdc/CodeSystem/VSGAD7"]
+    },
+    {
+      "url" : "http://hl7.org/fhir/uv/sdc/ValueSet/VSPHQ9",
+      "version" : null,
+      "status" : "draft",
+      "name" : "VSPHQ9",
+      "title" : null,
+      "description" : "The answer list for questions addressing the frequency in which patient reports experiencing behaviors that are assessed in the PHQ-9 Questionnaire.",
+      "systems" : ["http://hl7.org/fhir/uv/sdc/CodeSystem/CSPHQ9"]
+    },
+    {
+      "url" : "http://hl7.org/fhir/uv/sdc/ValueSet/VSPPS10",
+      "version" : null,
+      "status" : "draft",
+      "name" : "VSPPS10",
+      "title" : null,
+      "description" : "The answer list for questions addressing the frequency in which patient reports experiencing behaviors that are assessed in the PPS10 Questionnaire.",
+      "systems" : ["http://hl7.org/fhir/uv/sdc/CodeSystem/VSPPS10"]
+    },
+    {
+      "url" : "http://hl7.org/fhir/uv/sdc/ValueSet/VSPPS10",
+      "version" : null,
+      "status" : "draft",
+      "name" : "VSPPS10",
+      "title" : null,
+      "description" : "The answer list for questions addressing the frequency in which patient reports experiencing behaviors that are assessed in the PPS10 Questionnaire.",
+      "systems" : ["http://hl7.org/fhir/uv/sdc/CodeSystem/VSPPS10"]
+    }
+  ]
+}

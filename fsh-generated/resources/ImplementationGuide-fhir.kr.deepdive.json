@@ -1,0 +1,120 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "fhir.kr.deepdive",
+  "url": "http://example.org/ImplementationGuide/fhir.kr.deepdive",
+  "version": "0.1.0",
+  "name": "DeepDiveIG",
+  "title": "DeepDiveIG",
+  "status": "draft",
+  "publisher": "Yonsei University",
+  "contact": [
+    {
+      "name": "Yonsei University",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://example.org/example-publisher"
+        }
+      ]
+    }
+  ],
+  "description": "Deep Dive Implementation Guide",
+  "packageId": "fhir.kr.deepdive",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "Questionnaire/example-CDRS25"
+        },
+        "name": "Connor Davidson Resilience Scale - 25 item",
+        "description": "This is a Questionnaire example of how the Connor Davidson Resilience Scale 25-item Questionnaire could be rendered as a FHIR Questionnaire Resource according to the Structured Data Capture SDC Base Questionnaire Profile. This example also portrays how FHIRpaths can be used to perform total score calculations using answer values.",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Composition/Questionnaire-CDRS25"
+        },
+        "name": "Connor Davidson Resilience Scale - Questionnaire",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/example-GAD7"
+        },
+        "name": "Generalized Anxiety Disorder - 7 item",
+        "description": "This is a Questionnaire example of how the GAD-7 Questionnaire could be rendered as a FHIR Questionnaire Resource according to the Structured Data Capture SDC Base Questionnaire Profile. This example also portrays how FHIRpaths can be used to perform total score calculations using answer values.",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Composition/Questionnaire-GAD7"
+        },
+        "name": "Generalized Anxiety Disorder - Questionnaire",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/example-PHQ9"
+        },
+        "name": "Patient Health Questionnaire - 9 Item",
+        "description": "This is a Questionnaire example of how the PHQ-9 Questionnaire could be rendered as a FHIR Questionnaire Resource according to the Structured Data Capture SDC Base Questionnaire Profile. This example also portrays how FHIRpaths can be used to perform total score calculations using answer values.",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Composition/Questionnaire-PHQ9"
+        },
+        "name": "Patient Health Questionnaire - Questionnaire",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/example-PSS10"
+        },
+        "name": "Perceived Stress Scale - 10 item",
+        "description": "This is a Questionnaire example of how the PSS-10 Questionnaire could be rendered as a FHIR Questionnaire Resource according to the Structured Data Capture SDC Base Questionnaire Profile. This example also portrays how FHIRpaths can be used to perform total score calculations using answer values.",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Composition/Questionnaire-PSS10"
+        },
+        "name": "Perceived Stress Scale - Questionnaire",
+        "exampleBoolean": true
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/example-HEADER"
+        },
+        "name": "Questionnaire Header",
+        "description": "This is a Questionnaire example of patient demographics.",
+        "exampleBoolean": true
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2024+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      }
+    ]
+  }
+}

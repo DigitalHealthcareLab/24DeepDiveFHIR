@@ -1,0 +1,226 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "example-PSS10",
+  "meta": {
+    "profile": [
+      "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0"
+    ]
+  },
+  "contained": [
+    {
+      "resourceType": "ValueSet",
+      "id": "VSPPS10",
+      "meta": {
+        "profile": [
+          "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-valueset"
+        ]
+      },
+      "compose": {
+        "include": [
+          {
+            "concept": [
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                    "valueDecimal": 0
+                  }
+                ],
+                "code": "Never",
+                "display": "Never"
+              },
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                    "valueDecimal": 1
+                  }
+                ],
+                "code": "Almost-Never",
+                "display": "Almost Never"
+              },
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                    "valueDecimal": 2
+                  }
+                ],
+                "code": "Sometimes",
+                "display": "Sometimes"
+              },
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                    "valueDecimal": 3
+                  }
+                ],
+                "code": "Fairly often",
+                "display": "Fairly often"
+              },
+              {
+                "extension": [
+                  {
+                    "url": "http://hl7.org/fhir/StructureDefinition/ordinalValue",
+                    "valueDecimal": 4
+                  }
+                ],
+                "code": "Very often",
+                "display": "Very often"
+              }
+            ],
+            "system": "http://hl7.org/fhir/uv/sdc/CodeSystem/VSPPS10"
+          }
+        ]
+      },
+      "url": "http://hl7.org/fhir/uv/sdc/ValueSet/VSPPS10",
+      "name": "VSPPS10",
+      "status": "draft",
+      "description": "The answer list for questions addressing the frequency in which patient reports experiencing behaviors that are assessed in the PPS10 Questionnaire.",
+      "immutable": true
+    }
+  ],
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/rendering-styleSensitive",
+      "valueBoolean": true
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+      "valueCode": "fhir"
+    }
+  ],
+  "subjectType": [
+    "Patient"
+  ],
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.dhlab.org/"
+        }
+      ],
+      "name": "Yonsei University"
+    }
+  ],
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "code": "001",
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "display": "World"
+        }
+      ]
+    }
+  ],
+  "effectivePeriod": {
+    "start": "2018-08-20T04:00:00.000Z",
+    "end": "2020-08-20T04:00:00.000Z"
+  },
+  "item": [
+    {
+      "item": [
+        {
+          "linkId": "H1/T1/Q1",
+          "text": "In the last month, how often have you been upset because of something that happened unexpectedly?",
+          "type": "choice",
+          "answerValueSet": "#VSPPS10"
+        },
+        {
+          "linkId": "H1/T1/Q2",
+          "text": "In the last month, how often have you felt that you were unable to control the important things in your life?",
+          "type": "choice",
+          "answerValueSet": "#VSPPS10"
+        },
+        {
+          "linkId": "H1/T1/Q3",
+          "text": "In the last month, how often have you felt nervous and stressed?",
+          "type": "choice",
+          "answerValueSet": "#VSPPS10"
+        },
+        {
+          "linkId": "H1/T1/Q4",
+          "text": "In the last month, how often have you felt confident about your ability to handle your personal problems?",
+          "type": "choice",
+          "answerValueSet": "#VSPPS10"
+        },
+        {
+          "linkId": "H1/T1/Q5",
+          "text": "In the last month, how often have you felt that things were going your way?",
+          "type": "choice",
+          "answerValueSet": "#VSPPS10"
+        },
+        {
+          "linkId": "H1/T1/Q6",
+          "text": "In the last month, how often have you found that you could not cope with all things that you had to do?",
+          "type": "choice",
+          "answerValueSet": "#VSPPS10"
+        },
+        {
+          "linkId": "H1/T1/Q7",
+          "text": "In the last month, how often have you been able to control irritations in your life?",
+          "type": "choice",
+          "answerValueSet": "#VSPPS10"
+        },
+        {
+          "linkId": "H1/T1/Q8",
+          "text": "In the last month, how often have you felt you were on top of things?",
+          "type": "choice",
+          "answerValueSet": "#VSPPS10"
+        },
+        {
+          "linkId": "H1/T1/Q9",
+          "text": "In the last month, how often have you been angered because of things that were outside of your control?",
+          "type": "choice",
+          "answerValueSet": "#VSPPS10"
+        },
+        {
+          "linkId": "H1/T1/Q10",
+          "text": "In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?",
+          "type": "choice",
+          "answerValueSet": "#VSPPS10"
+        },
+        {
+          "extension": [
+            {
+              "valueExpression": {
+                "description": "Score (0-4: None-minimal; 5-9: Mild; 19-14: Moderate; 15-19: Moderately severe; 20-27: Severe)",
+                "name": "score",
+                "language": "text/fhirpath",
+                "expression": "%resource.answers().value.ordinal().sum()"
+              },
+              "url": "http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-calculatedExpression"
+            }
+          ],
+          "code": [
+            {
+              "code": "64394-0",
+              "system": "http://loinc.org",
+              "display": "PhenX - perceived stress protocol 180801"
+            }
+          ],
+          "linkId": "H1/TS",
+          "text": "PhenX - perceived stress protocol 180801",
+          "type": "quantity"
+        }
+      ],
+      "linkId": "H1/T1",
+      "text": "The question in this scale asks you about your feelings and thoughts during the last month. In each case, you will be asked to indicate by circling how often you felt or thought a certain way.",
+      "type": "group"
+    }
+  ],
+  "url": "http://hl7.org/fhir/uv/sdc/Questionnaire/example-PSS10",
+  "version": "3.0.0",
+  "name": "SDCPSS10",
+  "title": "Perceived Stress Scale - 10 item",
+  "status": "draft",
+  "experimental": true,
+  "date": "2023-12-07T23:07:45+00:00",
+  "publisher": "Yonsei University",
+  "description": "This is a Questionnaire example of how the PSS-10 Questionnaire could be rendered as a FHIR Questionnaire Resource according to the Structured Data Capture SDC Base Questionnaire Profile. This example also portrays how FHIRpaths can be used to perform total score calculations using answer values.",
+  "purpose": "This Questionnaire example was generated to ensure a non-proprietary, publicly available questionnaire that is available to test the Structured Data Capture profiles",
+  "approvalDate": "2019-08-20"
+}

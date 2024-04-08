@@ -1,0 +1,6 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://hl7.org/fhir/uv/sdc/ValueSet/VSCDRS25,null,draft,,VSCDRS25,null,"The answer list for questions addressing the frequency in which patient reports experiencing behaviors that are assessed in the PPS10 Questionnaire.",,"FHIR"
+http://hl7.org/fhir/uv/sdc/ValueSet/VSGAD7,null,draft,,VSGAD7,null,"The answer list for questions addressing the frequency in which patient reports experiencing behaviors that are assessed in the PPS10 Questionnaire.",,"FHIR"
+http://hl7.org/fhir/uv/sdc/ValueSet/VSPHQ9,null,draft,,VSPHQ9,null,"The answer list for questions addressing the frequency in which patient reports experiencing behaviors that are assessed in the PHQ-9 Questionnaire.",,"FHIR"
+http://hl7.org/fhir/uv/sdc/ValueSet/VSPPS10,null,draft,,VSPPS10,null,"The answer list for questions addressing the frequency in which patient reports experiencing behaviors that are assessed in the PPS10 Questionnaire.",,"FHIR"
+http://hl7.org/fhir/uv/sdc/ValueSet/VSPPS10,null,draft,,VSPPS10,null,"The answer list for questions addressing the frequency in which patient reports experiencing behaviors that are assessed in the PPS10 Questionnaire.",,"FHIR"

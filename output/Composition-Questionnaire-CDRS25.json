@@ -1,0 +1,85 @@
+{
+  "resourceType" : "Composition",
+  "id" : "Questionnaire-CDRS25",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Composition</b><a name=\"Questionnaire-CDRS25\"> </a><a name=\"hcQuestionnaire-CDRS25\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Composition &quot;Questionnaire-CDRS25&quot; </p></div><p><b>identifier</b>: <code>http://healthintersections.com.au/test</code>/1</p><p><b>status</b>: final</p><p><b>type</b>: Health Assessment Questionnaire [HAQ] <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#71950-0)</span></p><p><b>category</b>: Report <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://loinc.org/\">LOINC</a>#LP183761-8)</span></p><p><b>encounter</b>: <a href=\"Encounter/xcda\">Encounter/xcda</a></p><p><b>date</b>: 2012-01-04 09:10:14+0000</p><p><b>author</b>: <a href=\"Practitioner/xcda-author\">Practitioner/xcda-author: Doctor, MD</a></p><p><b>title</b>: Connor Davidson Resilience Scale - Questionnaire</p><h3>Attesters</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Mode</b></td><td><b>Time</b></td><td><b>Party</b></td></tr><tr><td style=\"display: none\">*</td><td>legal</td><td>2012-01-04 09:10:14+0000</td><td><a href=\"Practitioner/xcda-author\">Practitioner/xcda-author: Harold Hippocrates, MD</a></td></tr></table><p><b>custodian</b>: <a href=\"Organization/2.16.840.1.113883.19.5\">Organization/2.16.840.1.113883.19.5: Good Health Clinic</a></p><h3>Events</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Period</b></td></tr><tr><td style=\"display: none\">*</td><td>2010-07-18 --&gt; 2012-11-12</td></tr></table></div>"
+  },
+  "identifier" : {
+    "system" : "http://healthintersections.com.au/test",
+    "value" : "1"
+  },
+  "status" : "final",
+  "type" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "71950-0",
+      "display" : "Health Assessment Questionnaire [HAQ]"
+    }]
+  },
+  "category" : [{
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "LP183761-8",
+      "display" : "Report"
+    }]
+  }],
+  "subject" : {
+    "reference" : "Patient/xcda",
+    "display" : "Test patient"
+  },
+  "encounter" : {
+    "reference" : "Encounter/xcda"
+  },
+  "date" : "2012-01-04T09:10:14Z",
+  "author" : [{
+    "reference" : "Practitioner/xcda-author",
+    "display" : "Doctor, MD"
+  }],
+  "title" : "Connor Davidson Resilience Scale - Questionnaire",
+  "attester" : [{
+    "mode" : "legal",
+    "time" : "2012-01-04T09:10:14Z",
+    "party" : {
+      "reference" : "Practitioner/xcda-author",
+      "display" : "Harold Hippocrates, MD"
+    }
+  }],
+  "custodian" : {
+    "reference" : "Organization/2.16.840.1.113883.19.5",
+    "display" : "Good Health Clinic"
+  },
+  "event" : [{
+    "period" : {
+      "start" : "2010-07-18",
+      "end" : "2012-11-12"
+    }
+  }],
+  "section" : [{
+    "title" : "Patient demographics (HEADER)",
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Patient demographics (HEADER)</div>"
+    },
+    "orderedBy" : {
+      "coding" : [{
+        "system" : "http://terminology.hl7.org/CodeSystem/list-order",
+        "code" : "event-date",
+        "display" : "Sorted by Event Date"
+      }]
+    },
+    "entry" : [{
+      "reference" : "Questionnaire/example-HEADER"
+    }]
+  },
+  {
+    "title" : "CDRS25",
+    "text" : {
+      "status" : "generated",
+      "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\">Connor Davidson Resilience Scale 25</div>"
+    },
+    "entry" : [{
+      "reference" : "Questionnaire/example-CDRS25"
+    }]
+  }]
+}
