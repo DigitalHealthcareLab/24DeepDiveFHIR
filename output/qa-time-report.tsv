@@ -1,11 +1,11 @@
 Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	responsesForQuestionnaire	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-\fsh-generated\resources\ImplementationGuide-fhir.kr.deepdive.json	4230	-	0	0	0	0	0	0	8	188	0	0	0	0	0	0	0	1	0	0	455	222	0	0	0	2	4	0	0
-fsh-generated/resources/Composition-Questionnaire-CDRS25.json	2196	26	0	0	0	1	0	0	0	1583	0	0	0	0	0	0	0	0	0	0	100	114	0	0	0	0	0	0	0
-fsh-generated/resources/Composition-Questionnaire-GAD7.json	2181	22	0	0	0	0	0	0	1	116	0	0	0	0	0	0	0	0	0	0	118	92	0	0	0	0	0	0	0
-fsh-generated/resources/Composition-Questionnaire-PHQ9.json	2181	25	0	0	0	0	0	0	0	136	0	0	0	0	0	0	0	0	0	0	108	103	0	0	0	0	0	0	0
-fsh-generated/resources/Composition-Questionnaire-PSS10.json	2172	29	0	0	0	0	0	0	0	99	0	0	0	0	0	0	0	0	0	0	135	126	0	0	0	0	0	0	1
-fsh-generated/resources/Questionnaire-example-CDRS25.json	9764	26	1	0	0	0	0	0	1	99	0	0	0	0	0	0	0	0	0	0	1140	14689	0	0	0	1	8	0	0
-fsh-generated/resources/Questionnaire-example-GAD7.json	6249	31	0	0	0	0	0	0	2	26	0	0	0	0	0	0	0	1	0	0	443	381	0	0	0	0	3	0	0
-fsh-generated/resources/Questionnaire-example-HEADER.json	8165	32	1	0	0	0	0	0	1	30	0	0	0	0	0	0	0	0	0	0	684	322	0	0	0	0	4	0	0
-fsh-generated/resources/Questionnaire-example-PHQ9.json	6814	24	0	0	0	0	0	0	0	31	0	0	0	0	0	0	0	0	0	0	491	394	0	0	0	0	2	0	0
-fsh-generated/resources/Questionnaire-example-PSS10.json	7620	22	1	0	0	0	0	0	2	29	0	0	0	0	0	0	0	0	0	0	437	389	0	0	0	0	4	0	1
+\fsh-generated\resources\ImplementationGuide-fhir.kr.deepdive.json	4271	-	0	0	0	0	0	0	11	180	0	0	0	0	0	0	0	1	0	0	247	133	0	0	0	1	4	0	1
+fsh-generated/resources/Composition-Questionnaire-CDRS25.json	2196	21	0	0	0	1	0	0	0	1021	0	0	0	0	0	0	0	0	0	0	71	86	0	0	0	0	0	0	0
+fsh-generated/resources/Composition-Questionnaire-GAD7.json	2181	27	0	0	0	0	0	0	2	23	0	0	0	0	0	0	0	0	0	0	62	73	0	0	0	0	0	0	0
+fsh-generated/resources/Composition-Questionnaire-PHQ9.json	2181	27	0	0	0	0	0	0	1	22	0	0	0	0	0	0	0	0	0	0	57	88	0	0	0	0	0	0	0
+fsh-generated/resources/Composition-Questionnaire-PSS10.json	2172	19	0	0	0	0	0	0	1	23	0	0	0	0	0	0	0	0	0	0	65	78	0	0	0	0	0	0	0
+fsh-generated/resources/Questionnaire-example-CDRS25.json	9764	18	2	0	0	0	0	0	3	519	0	0	0	0	0	0	0	1	0	0	588	15894	0	0	0	1	7	0	0
+fsh-generated/resources/Questionnaire-example-GAD7.json	6249	16	0	0	0	0	0	0	1	301	0	0	0	0	0	0	0	0	0	0	333	1169	0	0	0	0	5	0	0
+fsh-generated/resources/Questionnaire-example-HEADER.json	8165	21	1	0	0	0	0	0	3	308	0	0	0	0	0	0	0	0	0	0	369	805	0	0	0	0	4	0	0
+fsh-generated/resources/Questionnaire-example-PHQ9.json	6814	24	0	0	0	0	0	0	2	97	0	0	0	0	0	0	0	0	0	0	202	445	0	0	0	0	5	0	0
+fsh-generated/resources/Questionnaire-example-PSS10.json	7620	29	0	0	0	0	0	0	5	10	0	0	0	0	0	0	0	1	0	0	222	846	0	0	0	0	3	0	0

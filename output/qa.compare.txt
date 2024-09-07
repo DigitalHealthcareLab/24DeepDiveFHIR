@@ -2,8 +2,8 @@ DigitalHealthDeepDiveIG : Validation Results
 =========================================
 
 err = 62, warn = 26, info = 9
-IG Publisher Version: 1.6.22
-Generated Sat Sep 07 11:10:01 EDT 2024. FHIR version 4.0.1 for fhir.kr.deepdive#0.1.0 (canonical = http://example.org)
+$--
+Generated $--. FHIR version $-- for fhir.kr.deepdive#$-- (canonical = http://example.org)
  Build Errors : 79 / 8 / 0
  C:\Users\jhlee\Desktop\DigitalTwin\24DeepDiveFHIR\fsh-generated\resources\Composition-Questionnaire-CDRS25 : 9 / 0 / 2
  C:\Users\jhlee\Desktop\DigitalTwin\24DeepDiveFHIR\fsh-generated\resources\Composition-Questionnaire-GAD7 : 9 / 0 / 2

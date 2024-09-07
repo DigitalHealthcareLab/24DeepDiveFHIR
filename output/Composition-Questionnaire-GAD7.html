@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>Generalized Anxiety Disorder - Questionnaire - DeepDiveIG v0.1.0</title>
+    <title>Generalized Anxiety Disorder - Questionnaire - DigitalHealthDeepDiveIG v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -38,7 +38,8 @@
   <body onload="document.body.style.opacity='1'">
 
 	  <script src="assets/js/prism.js"></script>
-
+    <script src="assets/js/mermaid.js" type="text/javascript"></script>
+    <script src="assets/js/mermaid-init.js" type="text/javascript"></script>
     <style type="text/css">h2{--heading-prefix:"2.4"}
     h3,h4,h5,h6{--heading-prefix:"2.4"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
@@ -47,7 +48,7 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">DeepDiveIG</span>
+          <p><span style="font-size:12pt;font-weight:bold">DigitalHealthDeepDiveIG</span>
             <br/>
             <span style="display:inline-block;">0.1.0 - ci-build
 
@@ -107,7 +108,7 @@
           <div class="inner-wrapper">
 
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">DeepDiveIG - Local Development build (v0.1.0) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="http://example.org/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+    <!-- ReleaseHeader --><p id="publish-box">DigitalHealthDeepDiveIG - Local Development build (v0.1.0) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="http://example.org/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
 
   
 
@@ -164,7 +165,7 @@
 
 
 
-  <div><p><b>Generated Narrative: Composition</b><a name="Questionnaire-GAD7"> </a><a name="hcQuestionnaire-GAD7"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Composition "Questionnaire-GAD7" </p></div><p><b>identifier</b>: <code>http://healthintersections.com.au/test</code>/1</p><p><b>status</b>: final</p><p><b>type</b>: Health Assessment Questionnaire [HAQ] <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#71950-0)</span></p><p><b>category</b>: Report <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="https://loinc.org/">LOINC</a>#LP183761-8)</span></p><p><a name="l291">​</a><b>encounter</b>: <a href="Encounter/xcda">Encounter/xcda</a></p><p><b>date</b>: 2012-01-04 09:10:14+0000</p><p><a name="l301">​</a><b>author</b>: <a href="Practitioner/xcda-author">Practitioner/xcda-author: Doctor, MD</a></p><p><b>title</b>: Generalized Anxiety Disorder - Questionnaire</p><h3>Attesters</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Mode</b></td><td><b>Time</b></td><td><b>Party</b></td></tr><tr><td style="display: none">*</td><td>legal</td><td>2012-01-04 09:10:14+0000</td><td><a name="l333">​</a><a href="Practitioner/xcda-author">Practitioner/xcda-author: Harold Hippocrates, MD</a></td></tr></table><p><a name="l336">​</a><b>custodian</b>: <a href="Organization/2.16.840.1.113883.19.5">Organization/2.16.840.1.113883.19.5: Good Health Clinic</a></p><h3>Events</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Period</b></td></tr><tr><td style="display: none">*</td><td>2010-07-18 --&gt; 2012-11-12</td></tr></table></div>
+  <div><p class="res-header-id"><b>Generated Narrative: Composition Questionnaire-GAD7</b></p><a name="Questionnaire-GAD7"> </a><a name="hcQuestionnaire-GAD7"> </a><a name="Questionnaire-GAD7-en-US"> </a><p><b>identifier</b>: <code>http://healthintersections.com.au/test</code>/1</p><p><b>status</b>: Final</p><p><b>type</b>: <span title="Codes:{http://loinc.org 71950-0}">Health Assessment Questionnaire [HAQ]</span></p><p><b>category</b>: <span title="Codes:{http://loinc.org LP183761-8}">Report</span></p><p><a name="l288">​</a><b>encounter</b>: <a href="Encounter/xcda">Encounter/xcda</a></p><p><b>date</b>: 2012-01-04 09:10:14+0000</p><p><a name="l298">​</a><b>author</b>: <a href="Practitioner/xcda-author">Doctor, MD</a></p><p><b>title</b>: Generalized Anxiety Disorder - Questionnaire</p><h3>Attesters</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Mode</b></td><td><b>Time</b></td><td><b>Party</b></td></tr><tr><td style="display: none">*</td><td>Legal</td><td>2012-01-04 09:10:14+0000</td><td><a name="l330">​</a><a href="Practitioner/xcda-author">Harold Hippocrates, MD</a></td></tr></table><p><a name="l333">​</a><b>custodian</b>: <a href="Organization/2.16.840.1.113883.19.5">Good Health Clinic</a></p><h3>Events</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Period</b></td></tr><tr><td style="display: none">*</td><td>2010-07-18 --&gt; 2012-11-12</td></tr></table></div>
 
   
 
@@ -182,20 +183,14 @@
   <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
 
-  <script type="text/javascript">
-    $(document).ready(function(){
-      if(window.location.hash != "") {
-          $('a[href="' + window.location.hash + '"]').click()
-      }
-    });
-  </script>
+  <script src="assets/js/window-hash.js" type="text/javascript"> </script>
   <a name="bottom"> </a>
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
 
       <div class="inner-wrapper">
-        <p><a name="l396">​</a>
-          IG &copy; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://example.org/example-publisher">Yonsei University</a>.  Package fhir.kr.deepdive#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Apr 3, 2024 21:56-0400">2024-04-03</span>
+        <p><a name="l393">​</a>
+          IG &copy; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="http://example.org/example-publisher">Yonsei University</a>.  Package fhir.kr.deepdive#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Sep 7, 2024 11:08-0400">2024-09-07</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
@@ -212,7 +207,7 @@
     <div class="container">    <!-- container -->
     </div>    <!-- /container -->
   </div>    <!-- /segment-post-footer -->
-  
+
     <!-- JS and analytics only. -->
     <!-- Bootstrap core JavaScript
   ================================================== -->
@@ -222,16 +217,7 @@
   <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
   <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
   <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
-  <script>anchors.options.visible = 'hover'
-anchors.add()</script>
-  
-  <!-- feedback form - Google forms -->
-  <!-- v0.1, 2021-01-09 -->
-
-
-
-  <!-- / feedback form -->
-
+  <script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
     <!-- Analytics Below
   ================================================== -->
   </body>

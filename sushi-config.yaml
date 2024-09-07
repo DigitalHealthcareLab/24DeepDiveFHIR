@@ -5,9 +5,9 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: fhir.kr.deepdive
 canonical: http://example.org
-name: DeepDiveIG
-title: DeepDiveIG
-description: Deep Dive Implementation Guide
+name: DigitalHealthDeepDiveIG
+title: DigitalHealthDeepDiveIG
+description: Digital Health Deep Dive Implementation Guide
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html

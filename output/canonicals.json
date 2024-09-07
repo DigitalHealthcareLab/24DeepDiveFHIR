@@ -4,7 +4,7 @@
     "type" : "ImplementationGuide",
     "url" : "http://example.org/ImplementationGuide/fhir.kr.deepdive",
     "version" : "0.1.0",
-    "name" : "DeepDiveIG"
+    "name" : "DigitalHealthDeepDiveIG"
   },
   {
     "id" : "example-CDRS25",

@@ -2,15 +2,15 @@
   "resourceType" : "ImplementationGuide",
   "id" : "fhir.kr.deepdive",
   "text" : {
-    "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>DeepDiveIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/ImplementationGuide/fhir.kr.deepdive</pre><div><p>Deep Dive Implementation Guide</p>\n</div></div>"
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide fhir.kr.deepdive</b></p><a name=\"fhir.kr.deepdive\"> </a><a name=\"hcfhir.kr.deepdive\"> </a><a name=\"fhir.kr.deepdive-en-US\"> </a><h2>DigitalHealthDeepDiveIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/ImplementationGuide/fhir.kr.deepdive</pre><div><p>Digital Health Deep Dive Implementation Guide</p>\n</div></div>"
   },
   "url" : "http://example.org/ImplementationGuide/fhir.kr.deepdive",
   "version" : "0.1.0",
-  "name" : "DeepDiveIG",
-  "title" : "DeepDiveIG",
+  "name" : "DigitalHealthDeepDiveIG",
+  "title" : "DigitalHealthDeepDiveIG",
   "status" : "draft",
-  "date" : "2024-04-03T21:56:28-04:00",
+  "date" : "2024-09-07T11:08:30-04:00",
   "publisher" : "Yonsei University",
   "contact" : [{
     "name" : "Yonsei University",
@@ -19,7 +19,7 @@
       "value" : "http://example.org/example-publisher"
     }]
   }],
-  "description" : "Deep Dive Implementation Guide",
+  "description" : "Digital Health Deep Dive Implementation Guide",
   "packageId" : "fhir.kr.deepdive",
   "license" : "CC0-1.0",
   "fhirVersion" : ["4.0.1"],
@@ -31,7 +31,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "5.3.0"
+    "version" : "6.0.2"
   },
   {
     "id" : "hl7ext",
@@ -41,7 +41,7 @@
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "1.0.0"
+    "version" : "5.1.0"
   }],
   "definition" : {
     "extension" : [{
@@ -321,7 +321,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools#0.1.0"
+      "valueCode" : "hl7.fhir.uv.tools#0.2.0"
     },
     {
       "extension" : [{

@@ -3,8 +3,8 @@
   "id": "fhir.kr.deepdive",
   "url": "http://example.org/ImplementationGuide/fhir.kr.deepdive",
   "version": "0.1.0",
-  "name": "DeepDiveIG",
-  "title": "DeepDiveIG",
+  "name": "DigitalHealthDeepDiveIG",
+  "title": "DigitalHealthDeepDiveIG",
   "status": "draft",
   "publisher": "Yonsei University",
   "contact": [
@@ -18,7 +18,7 @@
       ]
     }
   ],
-  "description": "Deep Dive Implementation Guide",
+  "description": "Digital Health Deep Dive Implementation Guide",
   "packageId": "fhir.kr.deepdive",
   "fhirVersion": [
     "4.0.1"

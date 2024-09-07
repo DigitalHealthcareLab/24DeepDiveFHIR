@@ -1,19 +1,19 @@
 {
   "url" : "http://example.org/ImplementationGuide/fhir.kr.deepdive",
-  "name" : "DeepDiveIG",
-  "title" : "DeepDiveIG",
-  "description" : "Deep Dive Implementation Guide",
+  "name" : "DigitalHealthDeepDiveIG",
+  "title" : "DigitalHealthDeepDiveIG",
+  "description" : "Digital Health Deep Dive Implementation Guide",
   "status" : "draft",
   "package-id" : "fhir.kr.deepdive",
   "ig-ver" : "0.1.0",
-  "date" : "Wed, 03 Apr, 2024 21:56:28 -0400",
-  "dateISO8601" : "2024-04-03T21:56:28-04:00",
+  "date" : "Sat, 07 Sep, 2024 11:08:30 -0400",
+  "dateISO8601" : "2024-09-07T11:08:30-04:00",
   "errs" : 62,
   "warnings" : 26,
-  "hints" : 4,
+  "hints" : 9,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 944800544
+  "maxMemory" : 975973024
 }

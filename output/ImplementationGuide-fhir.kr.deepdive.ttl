@@ -9,15 +9,15 @@
   fhir:nodeRole fhir:treeRoot ;
   fhir:id [ fhir:v "fhir.kr.deepdive"] ; # 
   fhir:text [
-     fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>DeepDiveIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/ImplementationGuide/fhir.kr.deepdive</pre><div><p>Deep Dive Implementation Guide</p>\n</div></div>"
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide fhir.kr.deepdive</b></p><a name=\"fhir.kr.deepdive\"> </a><a name=\"hcfhir.kr.deepdive\"> </a><a name=\"fhir.kr.deepdive-en-US\"> </a><h2>DigitalHealthDeepDiveIG</h2><p>The official URL for this implementation guide is: </p><pre>http://example.org/ImplementationGuide/fhir.kr.deepdive</pre><div><p>Digital Health Deep Dive Implementation Guide</p>\n</div></div>"
   ] ; # 
   fhir:url [ fhir:v "http://example.org/ImplementationGuide/fhir.kr.deepdive"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "DeepDiveIG"] ; # 
-  fhir:title [ fhir:v "DeepDiveIG"] ; # 
+  fhir:name [ fhir:v "DigitalHealthDeepDiveIG"] ; # 
+  fhir:title [ fhir:v "DigitalHealthDeepDiveIG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-04-03T21:56:28-04:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-09-07T11:08:30-04:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Yonsei University"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "Yonsei University" ] ;
@@ -26,7 +26,7 @@
        fhir:value [ fhir:v "http://example.org/example-publisher" ]
      ] )
   ] ) ; # 
-  fhir:description [ fhir:v "Deep Dive Implementation Guide"] ; # 
+  fhir:description [ fhir:v "Digital Health Deep Dive Implementation Guide"] ; # 
   fhir:packageId [ fhir:v "fhir.kr.deepdive"] ; # 
   fhir:license [ fhir:v "CC0-1.0"] ; # 
   fhir:fhirVersion ( [ fhir:v "4.0.1"] ) ; # 
@@ -41,7 +41,7 @@
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ] ;
      fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
-     fhir:version [ fhir:v "5.3.0" ]
+     fhir:version [ fhir:v "6.0.2" ]
   ] [
      fhir:id [ fhir:v "hl7ext" ] ;
      fhir:extension ( [
@@ -53,7 +53,7 @@
        fhir:link <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
      ] ;
      fhir:packageId [ fhir:v "hl7.fhir.uv.extensions.r4" ] ;
-     fhir:version [ fhir:v "1.0.0" ]
+     fhir:version [ fhir:v "5.1.0" ]
   ] ) ; # 
   fhir:definition [
      fhir:extension ( [
@@ -283,7 +283,7 @@
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "hl7.fhir.uv.tools#0.1.0" ]
+       fhir:value [ fhir:v "hl7.fhir.uv.tools#0.2.0" ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;

@@ -1,4 +1,4 @@
-# DeepDiveIG
+# DigitalHealthDeepDiveIG
 
 ### 과제 목표
 
